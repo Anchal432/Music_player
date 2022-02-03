@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Start of nav bar -->
+    <nav class="nav-bar">
+        <div class="logo-title">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/music_Image.gif" style="width: 50px; height: 50px;" >
+                </a>
+            </div>
+        </div>
+
+        <div class="favourites"><span>Favourite</span></div>
+
+        <div class="search-bar">
+            <div>
+                <i class="fas fa-search search-ico"></i>
+            </div>
+            <input type="text" name="search" placeholder="Search">
+            <div>
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+        </div>
+
+        <div class="notification-icon">
+            <img src="images/notification-bell.png">
+        </div>
+
+        <div class="profile-photo">
+            <img src="images/dummy image.png">
+        </div>
+    </nav>
+    <!-- End of nav bar -->
+
+    <main>
+        <!-- Set the cards in horizontal order -->
+
+        <!-- ***************************************Aside************************************** -->
+        <aside>
+            <div class="aside-header">
+              <div class="Queue-header">Queue</div>
+              <div class="queue-list">Queue <i class="fas fa-caret-down"></i></div>
+            </div>
+            <div class="aside-list">
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">01</div>
+    
+                  <div class="song-img" style="
+                      background-image: url('images/img11.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Vaaste</div>
+                    <div class="singer-name">Dhvani Bhanushali</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">02</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img10.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Top Notch Gabru</div>
+                    <div class="singer-name">Diljit</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">03</div>
+                  <div class="song-img" style="background-image: url('images/img13.jfif')"></div>
+                  <div class="song-details">
+                    <div class="song">Faded</div>
+                    <div class="singer-name">Alan Walker</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">04</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img9.jpg');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Aadat</div>
+                    <div class="singer-name">Ninja</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">05</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img14.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Senorita</div>
+                    <div class="singer-name">Mandes</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">06</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img10.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Top Notch Gabru</div>
+                    <div class="singer-name">Diljit</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">07</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img7.jpg');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Qismat</div>
+                    <div class="singer-name">Ammy Virk</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">08</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img13.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Faded</div>
+                    <div class="singer-name">Alan Walker</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">09</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img5.jpg');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Aadat</div>
+                    <div class="singer-name">Ninja</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">10</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img5.jpg');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Aadat</div>
+                    <div class="singer-name">Ninja</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">11</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img5.jpg');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Aadat</div>
+                    <div class="singer-name">Ninja</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">12</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img5.jpg');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Aadat</div>
+                    <div class="singer-name">Ninja</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">13</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img3.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Chale aana</div>
+                    <div class="singer-name">Arijit</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">14</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img3.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Chale aana</div>
+                    <div class="singer-name">Arijit</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="song-name">
+                  <div class="count">15</div>
+                  <div class="song-img" style="
+                      background-image: url('images/img3.jfif');
+                    "></div>
+                  <div class="song-details">
+                    <div class="song">Chale aana</div>
+                    <div class="singer-name">Arijit</div>
+                  </div>
+                </div>
+                <div class="song-fav">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <!-- ************************************Section************************************* -->
+
+        <div id="section">
+            <div class="div-card">
+                <div class="card" id="card1">
+                    <img src="images/img10.jfif" width="300px" height="300px">
+                </div>
+                <div class="card" id="card2">
+                    <img src="images/img 15.jfif" width="300px" height="300px">
+                </div>
+                <div class="card" id="card3">
+                    <img src="images/img13.jfif" width="300px" height="300px">
+                </div>
+            </div>
+
+            <!-- Latest Release -->
+            <div class="latest-release">
+                <h2 style="margin-top:30px">Latest Release</h2>
+                <div class="latest-songs">
+                    <div class="latest-song-div" id="latest-release-div1">
+                        <div id="latest-song-img-div"><img src="images/img14.jfif"></div>
+                        <div id="latest-song-about-div">
+                            <p class="song-name">Senorita</p>
+                            <p class="song-date">May 10, 2020</p>
+                        </div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">3:50</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button1"><img src="images/three dots.png" width="20px"
+                                        height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button1">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-song-div" id="latest-release-div2">
+                        <div id="latest-song-img-div"><img src="images/img 15.jfif"></div>
+                        <div id="latest-song-about-div">
+                            <p class="song-name">love me</p>
+                            <p class="song-date">Nov 30, 2020</p>
+                        </div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">4:00</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button2"><img src="images/three dots.png" width="20px"
+                                        height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button2">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-song-div" id="latest-release-div3">
+                        <div id="latest-song-img-div"><img src="images/img 16.jpg"></div>
+                        <div id="latest-song-about-div">
+                            <p class="song-name">Faded</p>
+                            <p class="song-date">Jan 21 2020</p>
+                        </div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">2:50</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button3"><img src="images/three dots.png" width="20px"
+                                        height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button3">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-song-div" id="latest-release-div4">
+                        <div id="latest-song-img-div"><img src="images/img5.jpg"></div>
+                        <div id="latest-song-about-div">
+                            <p class="song-name">Mann bhreya</p>
+                            <p class="song-date">SEPT 10, 2020</p>
+                        </div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">3:50</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button4"><img src="images/three dots.png" width="20px"
+                                        height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button4">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-song-div" id="latest-release-div4">
+                        <div id="latest-song-img-div"><img src="images/img14.jfif"></div>
+                        <div id="latest-song-about-div">
+                            <p class="song-name">Senorita</p>
+                            <p class="song-date">SEPT 10, 2020</p>
+                        </div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">4:10</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button4"><img src="images/three dots.png" width="20px"
+                                        height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button4">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-song-div" id="latest-release-div4">
+                        <div id="latest-song-img-div"><img src="images/img 15.jfif"></div>
+                        <div id="latest-song-about-div">
+                            <p class="song-name">you gotta me</p>
+                            <p class="song-date">Apr 10 2020</p>
+                        </div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">3:30</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button4"><img src="images/three dots.png" width="20px"
+                                        height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button4">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="latest-song-div" id="latest-release-div5">
+                        <div id="latest-song-img-div"><img src="images/img5.jpg"></div>
+                        <div id="latest-song-about-div"><p id="song-name">Onism</p><p id="song-date">SEPT 10, 2020</p></div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">3:50</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button5"><img src="images/three dots.png" width="20px" height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button5">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-song-div" id="latest-release-div6">
+                        <div id="latest-song-img-div"><img src="images/img5.jpg"></div>
+                        <div id="latest-song-about-div"><p id="song-name">Onism</p><p id="song-date">SEPT 10, 2020</p></div>
+                        <div id="latest-song-timer-div">
+                            <p id="song-timer">3:50</p>
+                            <div class="menu-box">
+                                <label id="dot-button" for="menu-button6"><img src="images/three dots.png" width="20px" height="20px"></label>
+                                <input class="menu-checkbox" type="checkbox" id="menu-button6">
+
+                                <div class="menu">
+                                    <p>Play Now</p>
+                                    <hr>
+                                    <p>Add To Queue </p>
+                                    <hr>
+                                    <p>Add To Favourites</p>
+                                    <hr>
+                                    <p>Get info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Popular Artist -->
+            <h1 style="margin-top: 100px;">Popular Artists</h1>
+            <div class="artists-section">
+                <div class="artist">
+                    <a href="./Single-Screen.html">
+                        <div class="artist-img" style="background: url(images/justin.jfif); background-size: cover;"></div>
+                    </a>
+                    <div class="artist-name">Justin Beiber</div>
+                </div>
+                <div class="artist">
+                    <a href="./Single-Screen.html">
+                        <div class="artist-img" style="background: url(images/nehaKakkar.jfif); background-size: cover;"></div>
+                    </a>
+                    <div class="artist-name">Neha Kakkar</div>
+                </div>
+                <div class="artist">
+                    <a href="./Single-Screen.html">
+                        <div class="artist-img" style="background: url(images/alanWalker.jfif); background-size: cover;"></div>
+                    </a>
+                    <div class="artist-name">Alan Walker</div>
+                </div>
+                <div class="artist">
+                    <a href="./Single-Screen.html">
+                        <div class="artist-img" style="background: url(images/camilaCabello.jpg); background-size: cover;"></div>
+                    </a>
+                    <div class="artist-name">Camila Cabello</div>
+                </div>
+                <div class="artist">
+                    <a href="./Single-Screen.html">
+                        <div class="artist-img" style="background: url(images/arijit.jfif); background-size: cover;"></div>
+                    </a>
+                    <div class="artist-name">Arijit Singh</div>
+                </div>
+                <div class="artist">
+                    <a href="./Single-Screen.html">
+                        <div class="artist-img" style="background: url(images/ammyVirk.jfif); background-size: cover;"></div>
+                    </a>
+                    <div class="artist-name">Ammy Virk</div>
+                </div>
+                <div class="artist">
+                    <a href="./Single-Screen.html">
+                        <div class="artist-img" style="background: url(images/nehaKakkar.jfif); background-size: cover;"></div>
+                    </a>
+                    <div class="artist-name">Neha Kakkar</div>
+                </div>
+
+            </div>
+
+            <!-- Music categories -->
+            <div class="music-themes-2">
+                <!-- 3 divs content -->
+                <div class="outer-div">
+                    <div class="inner-div">
+                        <span>Classic Party</span>
+                    </div>
+                </div>
+                <div class="outer-div">
+                    <div class="inner-div">
+                        <span>Electronics</span>
+                    </div>
+                </div>
+                <div class="outer-div">
+                    <div class="inner-div">
+                        <span>Road-trip</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest English -->
+            <h2 style="margin-top: 60px;">Latest English</h2>
+            <div class="latest-language-section" id="latest-english-section">
+
+                <div class="image-div" id="english-image-div1"><img src="images/img13.jfif"></div>
+                <div class="image-div" id="english-image-div1"><img src="images/img13.jfif"></div>
+                <div class="image-div" id="english-image-div1"><img src="images/img13.jfif"></div>
+                <div class="image-div" id="english-image-div1"><img src="images/img13.jfif"></div>
+                <div class="image-div" id="english-image-div1"><img src="images/img13.jfif"></div>
+                <div class="image-div" id="english-image-div1"><img src="images/img13.jfif"></div>
+                <!-- <div class="image-div" id="english-image-div1"><img src="images/img9.jpg"></div>
+                <div class="image-div" id="english-image-div1"><img src="images/img9.jpg"></div>
+                <div class="image-div" id="english-image-div1"><img src="images/img9.jpg"></div> -->
+                <div class="name-date-div">
+                    <p id="Name">Senorita</p>
+                    <p id="Date">15 May 2021</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Senorita</p>
+                    <p id="Date">15 May 2021</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Senorita</p>
+                    <p id="Date">15 May 2021</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Senorita</p>
+                    <p id="Date">15 May 2021</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Senorita</p>
+                    <p id="Date">15 May 2021</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Senorita</p>
+                    <p id="Date">15 May 2021</p>
+                </div>
+
+            </div>
+
+            <!-- Latest hindi -->
+            <h2>Latest Hindi</h2>
+            <div class="latest-language-section" id="latest-hindi-section">
+                <div class="image-div" id="hindi-image-div1"><img src="images/img6.jpeg"></div>
+                <div class="image-div" id="hindi-image-div1"><img src="images/img6.jpeg"></div>
+                <div class="image-div" id="hindi-image-div1"><img src="images/img6.jpeg"></div>
+                <div class="image-div" id="hindi-image-div1"><img src="images/img6.jpeg"></div>
+                <div class="image-div" id="hindi-image-div1"><img src="images/img6.jpeg"></div>
+                <div class="image-div" id="hindi-image-div1"><img src="images/img6.jpeg"></div>
+                <div class="name-date-div">
+                    <p id="Name">Soch</p>
+                    <p id="Date">30 Jan 2020</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">soch</p>
+                    <p id="Date">30 Jan 2020</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Soch</p>
+                    <p id="Date">3 Jan 2020</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Soch</p>
+                    <p id="Date">30 Jan 2020</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Soch </p>
+                    <p id="Date">30 Jan 2020</p>
+                </div>
+                <div class="name-date-div">
+                    <p id="Name">Soch</p>
+                    <p id="Date">30 Jan 2020</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="images/img8.jfif">
+            </div>
+            <!-- song name and author -->
+            <div class="song-desc">
+                <div>
+                    Imagine by John
+                </div>
+                <div>
+                    John Lenon
+                </div>
+                <!-- heart icon and ban icon -->
+            </div>
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- these are the main player controls -->
+        <div class="player">
+            <div class="controls">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="fas fa-pause-circle"></i> </div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                    1:39
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- total time -->
+                <div class="time">
+                    3:40
+                </div>
+            </div>
+        </div>
+        <!-- other icons including the volume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <!-- <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div> -->
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
